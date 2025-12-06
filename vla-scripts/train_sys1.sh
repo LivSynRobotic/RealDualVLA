@@ -22,6 +22,6 @@ CUDA_VISIBLE_DEVICES=3 torchrun --standalone --nnodes 1 --nproc-per-node 1 vla-s
   --pretrained_vision_encoder_name_or_path /root/data0/rd_vla/siglip-so400m-patch14-224 \
   --use_rdt True \
   --rdt_config_path /root/data0/rd_vla/real_dual_vla/fast_models/base.yaml \
-  --run_id_override=test \
+  --run_id_override=lerobot_single_tasks_1206 \
   --slow_train_mode False \
 

@@ -28,7 +28,7 @@ pip3 install torch torchvision torchaudio
 
 # Clone rd_vla repo and pip install to download dependencies
 git clone https://github.com/LivSynRobotic/RealDualVLA
-cd real_dual_vla
+cd RealDualVLA/
 pip install -e .
 
 # Install Flash Attention 2 for training (https://github.com/Dao-AILab/flash-attention)
