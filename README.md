@@ -27,7 +27,7 @@ conda activate rd_vla
 pip3 install torch torchvision torchaudio
 
 # Clone rd_vla repo and pip install to download dependencies
-git clone https://github.com/LivSynRobotic/RealDualVLA
+git clone https://github.com/LivsynRobotics/RealDualVLA
 cd RealDualVLA/
 pip install -e .
 
@@ -83,7 +83,7 @@ If you use this project in your research, please consider citing it as:
   author       = {LivSyn team},
   title        = {RealDualVLA: A real dual system Vision-Language-Action Framework},
   year         = {2025},
-  howpublished = {\url{https://github.com/LivSynRobotic/RealDualVLA}},
+  howpublished = {\url{https://github.com/LivsynRobotics/RealDualVLA}},
   note         = {Accessed: 2025-12-05}
 }
 ```
